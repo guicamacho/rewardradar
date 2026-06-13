@@ -1,0 +1,17 @@
+{
+  "name": "rewardradar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "validate": "npm run validate -w @rewardradar/market-config",
+    "demo": "npm run demo -w @rewardradar/data-core",
+    "typecheck": "npm run typecheck -w @rewardradar/market-config && npm run typecheck -w @rewardradar/data-core"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
