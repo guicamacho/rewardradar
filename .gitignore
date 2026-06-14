@@ -3,3 +3,7 @@ dist/
 .env
 .env.*
 !.env.example
+
+# Live route CSVs produced by availability-service generate-routes.
+# The committed AMERICAS_routes.csv sample stays tracked as a fixture.
+packages/availability-service/data/

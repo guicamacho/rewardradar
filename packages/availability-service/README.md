@@ -50,6 +50,22 @@ changes.
 - The sample carries no flight number; carrier is mapped, number left
   empty until upstream exposes it.
 
+## Refreshing the CSVs from the live provider
+
+`generate-routes.ts` polls the upstream provider (Aero partner search
+API) and writes one CSV per region in the AMERICAS_routes.csv shape.
+Point `CsvUpstream` at the output to serve fresh data; run it on a
+schedule (e.g. a weekly worker) for a batch-refresh pipeline.
+
+```
+AERO_API_KEY=... npm run generate -w @rewardradar/availability-service
+```
+
+The provider key is env-only (`AERO_API_KEY`); `AERO_API_URL` defaults to
+the public vendor endpoint. Output goes to `ROUTES_OUTPUT_DIR` or `./data`.
+Per-region route and airline allowlists in the script are a deliberate
+coverage rule, not a default to widen.
+
 ## Run
 
 ```

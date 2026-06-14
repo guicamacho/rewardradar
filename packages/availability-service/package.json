@@ -6,6 +6,7 @@
   "main": "src/index.ts",
   "scripts": {
     "demo": "tsx src/run-dev.ts",
+    "generate": "tsx src/generate-routes.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
