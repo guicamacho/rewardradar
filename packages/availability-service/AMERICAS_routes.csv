@@ -1,0 +1,207 @@
+origin,destination,airline,cabin,program,points_required,seats_available,taxes_currency,taxes_amount,flight_type,search_date,departure_date,availability_status
+SYD,LAX,American Airlines,Business,American,104500,NULL,USD,9043,Direct,2026-06-09,2026-06-09,Available
+SYD,LAX,Qantas,Business,Qantas,130100,1,AUD,70134,Connecting,2026-06-09,2026-06-09,Available
+SYD,LAX,Qantas,Business,Alaska,85000,1,USD,13263,Connecting,2026-06-09,2026-06-09,Available
+SYD,LAX,Qantas,Business,Finnair,95000,1,AUD,72424,Connecting,2026-06-09,2026-06-09,Available
+SYD,LAX,American Airlines,Business,American,104500,NULL,USD,9043,Direct,2026-06-09,2026-06-11,Available
+SYD,LAX,American Airlines,Business,American,104500,NULL,USD,9043,Direct,2026-06-09,2026-06-12,Available
+SYD,LAX,American Airlines,Business,American,104500,NULL,USD,9043,Direct,2026-06-09,2026-06-13,Available
+SYD,LAX,American Airlines,Business,American,104500,NULL,USD,9043,Direct,2026-06-09,2026-06-15,Available
+SYD,LAX,American Airlines,Business,American,104500,NULL,USD,9043,Direct,2026-06-09,2026-06-16,Available
+SYD,LAX,American Airlines,Business,American,104500,NULL,USD,9043,Direct,2026-06-09,2026-06-17,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-06,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-08,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-09,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-11,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-13,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-14,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-15,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-16,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-17,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-20,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-21,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-22,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-26,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-27,Available
+SYD,LAX,Qantas,Business,Alaska,85000,1,USD,13263,Connecting,2026-06-09,2026-07-27,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-28,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-29,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-07-30,Available
+SYD,LAX,American Airlines,Business,American,133500,NULL,USD,9043,Direct,2026-06-09,2026-08-03,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-08-13,Available
+SYD,LAX,American Airlines,Business,American,135500,NULL,USD,9043,Direct,2026-06-09,2026-08-17,Available
+SYD,LAX,American Airlines,Business,American,93500,NULL,USD,9043,Direct,2026-06-09,2026-08-20,Available
+SYD,LAX,American Airlines,Business,American,133000,NULL,USD,9043,Direct,2026-06-09,2026-08-24,Available
+SYD,LAX,American Airlines,Business,American,129500,NULL,USD,9043,Direct,2026-06-09,2026-10-02,Available
+SYD,LAX,American Airlines,Business,American,145000,NULL,USD,9043,Direct,2026-06-09,2026-10-09,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2026-11-03,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2026-11-04,Available
+SYD,LAX,American Airlines,Business,American,144000,NULL,USD,9043,Direct,2026-06-09,2026-11-05,Available
+SYD,LAX,American Airlines,Business,American,139500,NULL,USD,9043,Direct,2026-06-09,2026-11-06,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2026-11-11,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2026-11-12,Available
+SYD,LAX,Qantas,Business,Flyingblue,161000,2,USD,18043,Connecting,2026-06-09,2026-12-08,Available
+SYD,LAX,American Airlines,Business,American,137000,NULL,USD,9043,Direct,2026-06-09,2026-12-17,Available
+SYD,LAX,Qantas,Business,Qantas,225100,2,AUD,56604,Connecting,2026-06-09,2027-01-12,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-01-19,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-01-23,Available
+SYD,LAX,Qantas,Business,Qantas,225100,2,AUD,56604,Connecting,2026-06-09,2027-01-26,Available
+SYD,LAX,Qantas,Business,Qantas,225100,2,AUD,56604,Connecting,2026-06-09,2027-02-02,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-02-06,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-02-13,Available
+SYD,LAX,Qantas,Business,Qantas,225100,2,AUD,56604,Connecting,2026-06-09,2027-02-16,Available
+SYD,LAX,Qantas,Business,Qantas,225100,2,AUD,56604,Connecting,2026-06-09,2027-02-17,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-02-20,Available
+SYD,LAX,Qantas,Business,Qantas,225100,2,AUD,56604,Connecting,2026-06-09,2027-02-23,Available
+SYD,LAX,Qantas,Business,Qantas,225100,2,AUD,56604,Connecting,2026-06-09,2027-02-24,Available
+SYD,LAX,Qantas,Business,Qantas,225100,2,AUD,56604,Connecting,2026-06-09,2027-02-25,Available
+SYD,LAX,American Airlines,Business,American,140500,NULL,USD,9043,Direct,2026-06-09,2027-02-25,Available
+SYD,LAX,American Airlines,Business,American,139500,NULL,USD,9043,Direct,2026-06-09,2027-02-26,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-03-04,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-03-09,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-03-10,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56704,Connecting,2026-06-09,2027-03-11,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-03-16,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-03-17,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-03-18,Available
+SYD,LAX,Qantas,Business,Qantas,225100,1,AUD,56604,Connecting,2026-06-09,2027-03-23,Available
+SYD,LAX,American Airlines,Business,American,132500,NULL,USD,9043,Direct,2026-06-09,2027-04-20,Available
+SYD,LAX,American Airlines,Business,American,132000,NULL,USD,9043,Direct,2026-06-09,2027-04-21,Available
+SYD,LAX,American Airlines,Business,American,102500,NULL,USD,9043,Direct,2026-06-09,2027-04-22,Available
+SYD,LAX,American Airlines,Business,American,131000,NULL,USD,9043,Direct,2026-06-09,2027-04-27,Available
+SYD,LAX,American Airlines,Business,American,130000,NULL,USD,9043,Direct,2026-06-09,2027-04-28,Available
+SYD,LAX,American Airlines,Business,American,100000,NULL,USD,9043,Direct,2026-06-09,2027-04-29,Available
+LAX,SYD,American Airlines,Business,American,104500,NULL,USD,2790,Direct,2026-06-09,2026-06-09,Available
+LAX,SYD,American Airlines,Business,American,104500,NULL,USD,2790,Direct,2026-06-09,2026-06-10,Available
+LAX,SYD,American Airlines,Business,American,104500,NULL,USD,2790,Direct,2026-06-09,2026-06-14,Available
+LAX,SYD,Qantas,Business,Flyingblue,135000,1,USD,38640,Direct,2026-06-09,2026-06-14,Available
+LAX,SYD,American Airlines,Business,American,104500,NULL,USD,2790,Direct,2026-06-09,2026-06-15,Available
+LAX,SYD,American Airlines,Business,American,104500,NULL,USD,2790,Direct,2026-06-09,2026-06-16,Available
+LAX,SYD,American Airlines,Business,American,104500,NULL,USD,2790,Direct,2026-06-09,2026-06-17,Available
+LAX,SYD,Qantas,Business,American,80000,NULL,USD,4540,Connecting,2026-06-09,2026-06-21,Available
+LAX,SYD,American Airlines,Business,American,93500,NULL,USD,2790,Direct,2026-06-09,2026-06-22,Available
+LAX,SYD,American Airlines,Business,American,93500,NULL,USD,2790,Direct,2026-06-09,2026-06-23,Available
+LAX,SYD,American Airlines,Business,American,93500,NULL,USD,2790,Direct,2026-06-09,2026-06-24,Available
+LAX,SYD,American Airlines,Business,American,112500,NULL,USD,2790,Direct,2026-06-09,2026-06-27,Available
+LAX,SYD,American Airlines,Business,American,129000,NULL,USD,2790,Direct,2026-06-09,2026-06-28,Available
+LAX,SYD,American Airlines,Business,American,93500,NULL,USD,2790,Direct,2026-06-09,2026-06-29,Available
+LAX,SYD,American Airlines,Business,American,116000,NULL,USD,2790,Direct,2026-06-09,2026-06-30,Available
+LAX,SYD,Qantas,Business,Finnair,95000,1,USD,38650,Direct,2026-06-09,2026-07-01,Available
+LAX,SYD,American Airlines,Business,American,149500,NULL,USD,2790,Direct,2026-06-09,2026-07-08,Available
+LAX,SYD,American Airlines,Business,American,95500,NULL,USD,2790,Direct,2026-06-09,2026-07-22,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2026-07-26,Available
+LAX,SYD,American Airlines,Business,American,93500,NULL,USD,2790,Direct,2026-06-09,2026-07-27,Available
+LAX,SYD,American Airlines,Business,American,93500,NULL,USD,2790,Direct,2026-06-09,2026-07-28,Available
+LAX,SYD,American Airlines,Business,American,93500,NULL,USD,2790,Direct,2026-06-09,2026-07-29,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2026-11-01,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,2,USD,81480,Connecting,2026-06-09,2026-11-02,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2026-11-08,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2026-11-09,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2026-11-10,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,2,USD,81480,Connecting,2026-06-09,2026-11-16,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2026-11-22,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2026-11-23,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2026-11-24,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2026-11-29,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2026-12-01,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,4,USD,77690,Connecting,2026-06-09,2027-02-02,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2027-02-03,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,3,USD,77690,Connecting,2026-06-09,2027-02-05,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,2,USD,77690,Connecting,2026-06-09,2027-02-06,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,7,USD,77690,Connecting,2026-06-09,2027-02-08,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,7,USD,77690,Connecting,2026-06-09,2027-02-09,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,5,USD,77690,Connecting,2026-06-09,2027-02-10,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,6,USD,77690,Connecting,2026-06-09,2027-02-12,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,2,USD,77690,Connecting,2026-06-09,2027-02-13,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2027-02-13,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,4,USD,77690,Connecting,2026-06-09,2027-02-14,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2027-02-15,Available
+LAX,SYD,American Airlines,Business,Etihad,290000,7,USD,77690,Connecting,2026-06-09,2027-02-15,Available
+LAX,SYD,American Airlines,Business,Etihad,290000,7,USD,77690,Connecting,2026-06-09,2027-02-16,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,3,USD,77690,Connecting,2026-06-09,2027-02-17,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,2,USD,77690,Connecting,2026-06-09,2027-02-19,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2027-02-20,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,1,USD,77690,Connecting,2026-06-09,2027-02-20,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,5,USD,77690,Connecting,2026-06-09,2027-02-21,Available
+LAX,SYD,American Airlines,Business,Etihad,290000,7,USD,77690,Connecting,2026-06-09,2027-02-22,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2027-02-22,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,7,USD,77690,Connecting,2026-06-09,2027-02-23,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2027-02-23,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,3,USD,77690,Connecting,2026-06-09,2027-02-24,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,5,USD,77690,Connecting,2026-06-09,2027-02-26,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2027-02-28,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2027-03-01,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,7,USD,77690,Connecting,2026-06-09,2027-03-01,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,7,USD,77690,Connecting,2026-06-09,2027-03-02,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2027-03-02,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,7,USD,77690,Connecting,2026-06-09,2027-03-06,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2027-03-06,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2027-03-07,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,7,USD,77690,Connecting,2026-06-09,2027-03-08,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2027-03-08,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2027-03-09,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,4,USD,77690,Connecting,2026-06-09,2027-03-09,Available
+LAX,SYD,American Airlines,Business,Etihad,290000,7,USD,77690,Connecting,2026-06-09,2027-03-10,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2027-03-14,Available
+LAX,SYD,American Airlines,Business,Etihad,290000,7,USD,77690,Connecting,2026-06-09,2027-03-15,Available
+LAX,SYD,American Airlines,Business,Etihad,290000,7,USD,77690,Connecting,2026-06-09,2027-03-16,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2027-03-16,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,7,USD,77690,Connecting,2026-06-09,2027-03-17,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,4,USD,77690,Connecting,2026-06-09,2027-03-19,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2027-03-21,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2027-03-22,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,7,USD,77690,Connecting,2026-06-09,2027-03-22,Available
+LAX,SYD,Qantas,Business,Qantas,225100,1,USD,58870,Connecting,2026-06-09,2027-03-23,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,7,USD,77690,Connecting,2026-06-09,2027-03-23,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,6,USD,77690,Connecting,2026-06-09,2027-03-24,Available
+LAX,SYD,American Airlines,Business,Etihad,290000,7,USD,77690,Connecting,2026-06-09,2027-03-26,Available
+LAX,SYD,American Airlines,Business,Etihad,290000,4,USD,77690,Connecting,2026-06-09,2027-03-27,Available
+LAX,SYD,Qantas,Business,Qantas,225100,2,USD,58870,Connecting,2026-06-09,2027-03-28,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,7,USD,77690,Connecting,2026-06-09,2027-03-30,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,1,USD,77690,Connecting,2026-06-09,2027-03-31,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,1,USD,77690,Connecting,2026-06-09,2027-04-03,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,5,USD,77690,Connecting,2026-06-09,2027-04-04,Available
+LAX,SYD,American Airlines,Business,American,133000,NULL,USD,2790,Direct,2026-06-09,2027-04-05,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,3,USD,77690,Connecting,2026-06-09,2027-04-05,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,4,USD,77690,Connecting,2026-06-09,2027-04-06,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,1,USD,77690,Connecting,2026-06-09,2027-04-07,Available
+LAX,SYD,American Airlines,Business,American,108000,NULL,USD,2790,Direct,2026-06-09,2027-04-12,Available
+LAX,SYD,American Airlines,Business,American,135000,NULL,USD,2790,Direct,2026-06-09,2027-04-14,Available
+LAX,SYD,American Airlines,Business,American,134500,NULL,USD,2790,Direct,2026-06-09,2027-04-19,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,6,USD,77690,Connecting,2026-06-09,2027-04-19,Available
+LAX,SYD,American Airlines,Business,American,114500,NULL,USD,2790,Direct,2026-06-09,2027-04-20,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,4,USD,77690,Connecting,2026-06-09,2027-04-20,Available
+LAX,SYD,American Airlines,Business,American,128000,NULL,USD,2790,Direct,2026-06-09,2027-04-21,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,1,USD,77690,Connecting,2026-06-09,2027-04-21,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,2,USD,77690,Connecting,2026-06-09,2027-04-23,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,2,USD,77690,Connecting,2026-06-09,2027-04-25,Available
+LAX,SYD,American Airlines,Business,American,106000,NULL,USD,2790,Direct,2026-06-09,2027-04-26,Available
+LAX,SYD,American Airlines,Business,American,122500,NULL,USD,2790,Direct,2026-06-09,2027-04-27,Available
+LAX,SYD,American Airlines,Business,American,130000,NULL,USD,2790,Direct,2026-06-09,2027-04-28,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,1,USD,77690,Connecting,2026-06-09,2027-04-28,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,1,USD,77690,Connecting,2026-06-09,2027-04-30,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,1,USD,77690,Connecting,2026-06-09,2027-05-01,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,2,USD,77690,Connecting,2026-06-09,2027-05-02,Available
+LAX,SYD,American Airlines,Business,Etihad,280000,2,USD,77690,Connecting,2026-06-09,2027-05-03,Available
+MEL,LAX,Qantas,Business,Qantas,130100,1,AUD,63001,Direct,2026-06-09,2026-08-04,Available
+MEL,LAX,Qantas,Business,Alaska,85000,1,USD,10673,Direct,2026-06-09,2026-08-04,Available
+MEL,LAX,Qantas,Business,American,80000,NULL,USD,9423,Direct,2026-06-09,2026-08-04,Available
+MEL,LAX,Qantas,Business,Flyingblue,142500,1,USD,46243,Direct,2026-06-09,2026-08-07,Available
+MEL,LAX,Qantas,Business,Qantas,225100,1,AUD,56396,Connecting,2026-06-09,2027-01-14,Available
+MEL,LAX,Qantas,Business,Qantas,219500,1,AUD,44745,Connecting,2026-06-09,2027-01-20,Available
+MEL,LAX,Qantas,Business,Qantas,219500,1,AUD,44745,Connecting,2026-06-09,2027-01-22,Available
+MEL,LAX,Qantas,Business,Qantas,219500,1,AUD,44745,Connecting,2026-06-09,2027-01-27,Available
+MEL,LAX,Qantas,Business,Qantas,225100,1,AUD,56396,Connecting,2026-06-09,2027-01-28,Available
+MEL,LAX,Qantas,Business,Qantas,225100,1,AUD,56396,Connecting,2026-06-09,2027-02-04,Available
+MEL,LAX,Qantas,Business,Qantas,225100,1,AUD,56396,Connecting,2026-06-09,2027-02-11,Available
+MEL,LAX,Qantas,Business,Qantas,225100,1,AUD,56396,Connecting,2026-06-09,2027-02-16,Available
+MEL,LAX,Qantas,Business,Qantas,219500,1,AUD,44745,Connecting,2026-06-09,2027-02-17,Available
+MEL,LAX,Qantas,Business,Qantas,225100,1,AUD,56396,Connecting,2026-06-09,2027-02-18,Available
+MEL,LAX,Qantas,Business,Qantas,225100,1,AUD,56396,Connecting,2026-06-09,2027-02-25,Available
+LAX,MEL,Qantas,Business,Alaska,85000,1,USD,3670,Direct,2026-06-09,2026-08-03,Available
+LAX,MEL,Qantas,Business,Flyingblue,142500,1,USD,37510,Direct,2026-06-09,2026-08-03,Available
+LAX,MEL,Qantas,Business,Qantas,130100,1,USD,35760,Direct,2026-06-09,2026-08-03,Available
+LAX,MEL,Qantas,Business,Qantas,219500,1,USD,40050,Connecting,2026-06-09,2026-11-08,Available
+LAX,MEL,Qantas,Business,Qantas,225100,1,USD,58720,Connecting,2026-06-09,2026-11-23,Available
+LAX,MEL,Qantas,Business,Qantas,219500,1,USD,40050,Connecting,2026-06-09,2026-11-29,Available
+LAX,MEL,Qantas,Business,Qantas,225100,1,USD,58720,Connecting,2026-06-09,2027-02-07,Available

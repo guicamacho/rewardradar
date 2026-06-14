@@ -128,3 +128,4 @@ export * from "./sinks";
 export * from "./sources/types";
 export { MockSource } from "./sources/mock";
 export { ExternalApiSource } from "./sources/external-api";
+export { AvailabilityServiceSource } from "./sources/availability-service";

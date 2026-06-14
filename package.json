@@ -7,7 +7,8 @@
   "scripts": {
     "validate": "npm run validate -w @rewardradar/market-config",
     "demo": "npm run demo -w @rewardradar/data-core",
-    "typecheck": "npm run typecheck -w @rewardradar/market-config && npm run typecheck -w @rewardradar/data-core"
+    "demo:availability": "npm run demo -w @rewardradar/availability-service",
+    "typecheck": "npm run typecheck -w @rewardradar/market-config && npm run typecheck -w @rewardradar/availability-service && npm run typecheck -w @rewardradar/data-core"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

@@ -3,6 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@rewardradar/availability-service": ["../availability-service/src/index.ts"],
       "@rewardradar/market-config": ["../market-config/src/index.ts"]
     }
   },
