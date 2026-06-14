@@ -13,3 +13,5 @@ export {
   type FlightClassConfig,
   type AeroConfig,
 } from "./provider/aero-client";
+export { flightToRows, isoDate, type CabinKey, type MapOptions } from "./provider/map-rows";
+export { AeroUpstream, type AeroUpstreamOptions } from "./provider/aero-upstream";

@@ -31,10 +31,17 @@ that makes one-backend-many-brands safe for upstream systems.
 ## Upstream port
 
 `UpstreamPort.fetchRows(req)` is the single seam to the real data store.
-`CsvUpstream` implements it from a CSV export (the provided
-AMERICAS_routes.csv shape) for dev and tests. The production port
-implements the same interface against the live backend; nothing else
-changes.
+Two implementations ship:
+
+- `CsvUpstream` reads a CSV export (the AMERICAS_routes.csv shape) for
+  dev, tests, and the batch-refresh pipeline.
+- `AeroUpstream` queries the live provider per route (Aero partner API)
+  and maps results into the same row shape. Real-time freshness at the
+  cost of a live call on each cache miss.
+
+Both return every programme and cabin for the route+window; the service
+narrows by programme and cabin after caching, so one read serves many
+brands. Swapping ports changes nothing else.
 
 ### Mapping notes (from the real sample)
 
