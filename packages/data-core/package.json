@@ -6,6 +6,7 @@
   "main": "src/index.ts",
   "scripts": {
     "demo": "tsx src/run-dev.ts",
+    "start": "tsx src/start.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

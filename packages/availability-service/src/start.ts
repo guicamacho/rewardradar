@@ -41,7 +41,9 @@ const cacheTtlMs = Number(process.env.CACHE_TTL_MS ?? 5 * 60_000);
 const service = new AvailabilityService({ upstream, cacheTtlMs });
 const server = createAvailabilityServer({ service, apiKey });
 
-server.listen(PORT, "0.0.0.0", () => {
+// Bind IPv6 dual-stack so the service is reachable over Fly private
+// networking (.internal is IPv6); also accepts IPv4 for local/health.
+server.listen(PORT, "::", () => {
   console.log(`availability-service listening on :${PORT} (upstream=${mode})`);
 });
 

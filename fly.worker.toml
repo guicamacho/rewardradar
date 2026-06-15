@@ -1,0 +1,41 @@
+# data-core worker — the always-on poll/detect/route engine.
+#
+# Private (no public IP). Polls the availability-service over 6PN and
+# delivers alerts to its sinks. Exposes /health for Fly checks only.
+#
+# Deploy from the repo root: fly deploy -c fly.worker.toml
+app = "rewardradar-worker"
+primary_region = "syd"
+
+[build]
+  dockerfile = "Dockerfile"
+
+# Override the image's default command (which runs the availability
+# service) to run the worker instead.
+[processes]
+  app = "npm run start -w @rewardradar/data-core"
+
+[env]
+  PORT = "8080"
+  TICK_INTERVAL_MS = "60000"
+  AVAILABILITY_SERVICE_URL = "http://rewardradar-availability.internal:8080"
+
+# Secrets (set with `fly secrets set -a rewardradar-worker`):
+#   AVAILABILITY_SERVICE_KEY   required; MUST match the availability-service value
+#   ALERTS_WEBHOOK_URL/SECRET  optional; enables the HMAC webhook sink
+#   TELEGRAM_BOT_TOKEN         optional; enables the Telegram sink
+#   TELEGRAM_CHAT_ID_BR / _ES  Telegram chat ids per market
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory = "256mb"
+
+[checks.health]
+  type = "http"
+  port = 8080
+  method = "GET"
+  path = "/health"
+  interval = "15s"
+  timeout = "2s"
+  grace_period = "10s"

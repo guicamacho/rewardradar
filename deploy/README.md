@@ -8,7 +8,7 @@ Each app has its own `fly.*.toml` and selects its process command there.
 | App | Config | Role | Exposure |
 |-----|--------|------|----------|
 | `rewardradar-availability` | `fly.availability.toml` | brand-neutral backend (`/v1/availability`) | private (6PN only) |
-| `rewardradar-worker` (next) | `fly.worker.toml` | data-core poll/detect/route worker | private |
+| `rewardradar-worker` | `fly.worker.toml` | data-core poll/detect/route worker | private |
 
 `apps/web` will be added to Fly when it exists.
 
@@ -39,7 +39,29 @@ fly proxy 8080:8080 -a rewardradar-availability
 curl -s localhost:8080/health
 ```
 
-### Upstream modes
+## data-core worker
+
+Always-on poll/detect/route engine. Private; reaches the availability
+service at `rewardradar-availability.internal:8080`.
+
+```sh
+fly apps create rewardradar-worker
+
+# Must match the availability-service value exactly
+fly secrets set AVAILABILITY_SERVICE_KEY="<same value>" -a rewardradar-worker
+
+# Optional sinks
+# fly secrets set ALERTS_WEBHOOK_URL=... ALERTS_WEBHOOK_SECRET=... -a rewardradar-worker
+# fly secrets set TELEGRAM_BOT_TOKEN=... TELEGRAM_CHAT_ID_BR=... -a rewardradar-worker
+
+fly deploy -c fly.worker.toml
+```
+
+`GET /health` reports the last tick (`ticks`, `lastEvents`, `lastError`).
+With the backend in CSV mode the data is static, so ticks baseline once
+then report 0 events — that is healthy, not idle.
+
+## availability-service upstream modes
 
 - `UPSTREAM=csv` (default): serves the CSV in the image. Refresh the data
   with `generate-routes` (a scheduled job) writing to a mounted volume,
