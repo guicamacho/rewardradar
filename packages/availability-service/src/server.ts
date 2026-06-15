@@ -38,6 +38,10 @@ async function handle(
   opts: ServerOptions,
   maxBodyBytes: number,
 ): Promise<void> {
+  if (req.method === "GET" && (req.url === "/health" || req.url === "/healthz")) {
+    return sendJson(res, 200, { status: "ok" });
+  }
+
   if (req.method !== "POST" || req.url !== "/v1/availability") {
     return sendJson(res, 404, { error: "not_found" });
   }
